@@ -1,0 +1,15 @@
+.slideshow{
+  position: relative;
+  display: block;
+  overflow: hidden;
+}
+
+.slideshow div{
+  position: absolute;
+  opacity: 0;
+}
+
+div .show{
+  opacity: 1;
+  position: static;
+}
