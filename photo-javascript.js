@@ -5,7 +5,6 @@ $( document ).ready(function() {
   var numItems = 6;
 
   var showImage = function(){
-   console.log("show");
     var itemToShow = Math.abs(counter%numItems);
     $items.removeClass('show');
     $items.eq(itemToShow).addClass('show');    
