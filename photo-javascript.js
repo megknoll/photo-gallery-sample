@@ -20,4 +20,5 @@ $('.prev-button').on('click', function(){
     counter--;
     showImage(); 
 });
-}
+});
+
